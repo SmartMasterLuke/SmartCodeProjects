@@ -236,7 +236,7 @@ header {
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
-	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(img/beauty-sky-2.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../img/beauty-sky-2.jpg);
 }
 
 .hero-text-box {
@@ -249,7 +249,7 @@ header {
 
 .hero-text-box h1 {
 	z-index: 0;
-	transition: color 0.3s;	
+	transition: color 0.3s;
 }
 
 .logo-bild {
@@ -463,7 +463,7 @@ nav ul li {
 	color: #fff;
 	background-size: cover;
 	background-attachment: fixed;
-	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(img/tablet-and-glasses.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../img/tablet-and-glasses.jpg);
 }
 
 blockquote {
@@ -556,7 +556,7 @@ cite img {
 	color: #ff3f34;
 	font-size: 300%;
 	font-weight: 300;
-	margin-bottom: 10px;	
+	margin-bottom: 10px;
 }
 
 .plan-price span {
@@ -620,10 +620,15 @@ input[type=checkbox] {
 
 footer {
 	height: 30vh;
+	position: relative;
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
-	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(img/beauty-sky-2.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../img/beauty-sky-2.jpg);
+}
+
+footer .row {
+	position: absolute;
 }
 
 .meta-nav {
@@ -657,8 +662,8 @@ footer {
 .xing,
 .twitter,
 .facebook {
-	font-size: 125%;	
-	background-color: #fff; 
+	font-size: 125%;
+	background-color: #fff;
 	padding: 6px 7px 2px 7px;
 }
 
@@ -671,11 +676,12 @@ footer {
 }
 
 .twitter {
-	color: #1da1f2; 
+	color: #1da1f2;
 }
 
 .copyrights {
 	color: #fff;
+	right: 20px;
 	padding: 8px 0;
 	margin-top: 100px;
 	margin-left: 40px;
@@ -912,12 +918,12 @@ body .product-preview {
 .hero-text-box h1:nth-child(1) {
 	margin-top: 10px;
 	margin-bottom: 10px;
-} 
+}
 
 .hero-text-box h1:nth-child(2) {
 	margin-top: 10px;
 	margin-bottom: 10px;
-} 
+}
 
 .arrow-down {
 	-webkit-animation-delay: 0s;
@@ -931,7 +937,7 @@ body .product-preview {
 }
 
 .js-wp-1 {
-	-webkit-animation-duration: 2.5s;	
+	-webkit-animation-duration: 2.5s;
 }
 
 .dipper {
@@ -965,25 +971,25 @@ body .product-preview {
 
 
 @media (min-width: 1281px) {
-  
+
   /* CSS */
-  
+
 }
 
 
 @media (min-width: 1025px) and (max-width: 1280px) {
-  
+
   /* more CSS *
-  
+
 }
 
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  
+
   	.logo-bild {
 	    height: 90px;
 	}
-  
+
 	header .main-nav {
 	    transform: translate(-2.7%, 0%);
 	}
@@ -999,7 +1005,7 @@ body .product-preview {
 	.logo-bild {
 	    height: 90px;
 	}
-  
+
 	.main-nav {
 	    transform: translate(-2.7%, 0%);
 	}
@@ -1011,11 +1017,11 @@ body .product-preview {
 
 
 @media (min-width: 481px) and (max-width: 767px) {
-  
+
     .logo-bild {
 	    height: 90px;
 	}
-  
+
 	header .main-nav {
 	    transform: translate(-2.7%, 0%);
 	}
@@ -1032,12 +1038,12 @@ body .product-preview {
 
 
 @media (min-width: 320px) and (max-width: 480px) {
-  
+
   	.logo-bild {
 	    height: 90px;
 	    margin-left: 37.9%;
 	}
-  
+
 	header .main-nav {
 	    transform: translate(-2.7%, 0%);
 	}
