@@ -48,7 +48,7 @@ from matplotlib import pyplot
 # Load dataset from csv file
 iris = '../Datasets/iris.csv'
 
-# Define header column
+# Define header row
 col_names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'class']
 
 # Read CSV file with panda and add header column
